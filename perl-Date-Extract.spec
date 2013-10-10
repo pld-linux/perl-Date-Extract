@@ -13,6 +13,7 @@ License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	da567c4c45ea1456eee6f1d05b9f9f06
+BuildRequires:	perl-DateTime-Format-Natural
 BuildRequires:	perl-Test-MockTime
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
