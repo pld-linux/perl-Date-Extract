@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Date
 %define		pnam	Extract
+%include	/usr/lib/rpm/macros.perl
 Summary:	Date::Extract - extract probable dates from strings
 Name:		perl-Date-Extract
 Version:	0.04
@@ -13,6 +13,7 @@ License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	da567c4c45ea1456eee6f1d05b9f9f06
+URL:		http://search.cpan.org/dist/Date-Extract/
 BuildRequires:	perl-DateTime-Format-Natural
 BuildRequires:	perl-Test-MockTime
 BuildRequires:	perl-devel >= 1:5.8.0
