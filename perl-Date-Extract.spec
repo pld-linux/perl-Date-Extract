@@ -14,12 +14,13 @@ Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	045879fe373f8e99c215b3a466103445
 URL:		http://search.cpan.org/dist/Date-Extract/
-BuildRequires:	perl-DateTime-Format-Natural
-BuildRequires:	perl-Test-MockTime
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
 BuildRequires:	perl-Class-Data-Inheritable
+BuildRequires:	perl-DateTime-Format-Natural
+BuildRequires:	perl-DateTime-Locale
+BuildRequires:	perl-Test-MockTime
 %endif
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
