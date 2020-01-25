@@ -4,7 +4,6 @@
 
 %define		pdir	Date
 %define		pnam	Extract
-%include	/usr/lib/rpm/macros.perl
 Summary:	Date::Extract - extract probable dates from strings
 Name:		perl-Date-Extract
 Version:	0.06
