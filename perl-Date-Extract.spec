@@ -6,12 +6,12 @@
 %define		pnam	Extract
 Summary:	Date::Extract - extract probable dates from strings
 Name:		perl-Date-Extract
-Version:	0.06
+Version:	0.07
 Release:	1
 License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	21fd316d2b6b0a6ab40f381f9e978cdc
+# Source0-md5:	0eaa91196034b41e1f3873a60c15ec68
 URL:		http://search.cpan.org/dist/Date-Extract/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
